@@ -69,7 +69,7 @@ const HonorsNumbers = ({students}) => {
         <h2 style={{'color':'red'}}>
 
         <div className="flex items-center gap-4">
-        <PencilIcon className="w-8 h-8" />
+        <PencilIcon className="w-8 h-8" /> 
               <span className="text-2xl font-bold">0</span>
               <span> Honors Classes</span>
             </div>
