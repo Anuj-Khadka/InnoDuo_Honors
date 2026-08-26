@@ -20,7 +20,7 @@ const HomePage = () => {
   const { defaultTheme } = useContext(ThemeContext);
   const { loggedIn } = useContext(authContext);
   const [students, setStudents] = useState([]);
-  const [alert, setAlert] = useState({ message: `This site is not officially deployed yet. This is a test preview for Developers.`, type: 'error' });
+  // const [alert, setAlert] = useState({ message: `This site is not officially deployed yet. This is a test preview for Developers.`, type: 'error' });
 
   const showAlert = (message, type) => {
     setAlert({ message, type });
